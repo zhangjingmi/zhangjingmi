@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+}
+body,html{
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+}
+ul,li{
+    list-style: none;
+}
+#main{
+    width: 640px;
+    height: 960px;
+    position: absolute;
+    left: 50%;
+    top:0;
+    margin-left: -320px;
+    transform-origin: top;
+    -webkit-transform-origin: top;
+}
+#list li{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+#list li:nth-child(1){
+    background: #d870af;
+    background: url(img/16.png) no-repeat;
+}
+#list li:nth-child(2){
+    background: #d870af;
+}
+#list li:nth-child(3){
+    background: #d870af;
+}
+#list li:nth-child(4){
+    background: #d870af;
+ }
+#list li:nth-child(5){
+    background: #d870af;
+  }
+#list li:nth-child(6){
+    background: #d870af;
+   }
+.zIndex{
+    z-index: 5;
+}
+.a1{
+    position: absolute;
+    top: 40%;
+    font-size: 30px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+#list .imgKitty{
+    width: 260px;
+    height: 260px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -137px;
+    margin-top: -200px;
+    border: 1px dashed #FFFFFF;
+    border-radius: 50%;
+}
+#list .kitty{
+    width: 200px;
+    height: 200px;
+    border: 15px solid #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -113px;
+    margin-top: -113px;
+}
+#list .name{
+    font-size: 40px;
+    position: absolute;
+    top:190px;
+    left: 20%;
+}
+.a1 .Kitty{
+    -webkit-animation: one-boxM 1s linear 0s infinite;
+    animation: one-boxM 1s linear 0s infinite;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes one-boxM {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes one-boxM {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+.a1 p{
+    transform: translate(500px,0);
+    -webkit-transform: translate(500px,0);
+}
+
+#a1 p{
+    transform: translate(0,0);
+    -webkit-transform: translate(0,0);
+    transition:1s;
+    -webkit-transition:1s;}
+
+.a2 .cat,.a3 .cat,.a4 .cat,.a5 .cat{
+    width: 125px;
+    height: 70px;
+    position: absolute;
+    top:0;
+    left: 40%;
+}
+.a2 img,.a3 img,.a4 img,.a5 img{
+    width: 100%;
+    height: 100%;
+ }
+.a2 .personOne{
+    color:#fec94b;
+    position: absolute;
+    top:10%;
+    left: 10%;
+    font-size: 50px;
+}
+.a2 .personTwo{
+    width: 600px;
+    position: absolute;
+    top:28%;
+    left: 24%;
+    font-size: 30px;
+    color: white;
+}
+.a2 p:nth-child(even){
+    transform: translate(600px,0);
+    -webkit-transform: translate(600px,0);
+}
+.a2 p:nth-child(odd){
+    transform: translate(-600px,0);
+    -webkit-transform: translate(-600px,0);
+}
+#a2 p{
+    transform: translate(0,0);
+    -webkit-transform: translate(0,0);
+    transition:1s;
+    -webkit-transition:1s;
+}
+.a2 p{
+    height: 80px;
+    line-height: 80px;
+    letter-spacing: 0.1em;
+}
+.a2 .birthday{
+    width: 600px;
+    position: absolute;
+    left:13%;
+    bottom: 10%;
+    font-size: 26px;
+    color: white;
+}
+
+.a3 .personThree{
+    color:#fec94b;
+    position: absolute;
+    top:10%;
+    left: 10%;
+    font-size: 50px;
+}
+.a3 p{
+    font-size: 45px;
+    color: white;
+    line-height: 90px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+.a3 .girlOne{
+    width: 260px;
+    height: 90px;
+    line-height: 90px;
+    position: absolute;
+    top:20%;
+    left: 10%;
+    background: #efea3a;
+    border-radius: 10px;
+}
+.a3 .girlTwo{
+    width: 260px;
+    height: 90px;
+    line-height: 90px;
+    position: absolute;
+    top:31%;
+    right: 10%;
+    background: #efea3a;
+    border-radius: 10px;
+}
+.a3 .girlThree{
+    width: 260px;
+    height: 90px;
+    line-height: 90px;
+    position: absolute;
+    top:42%;
+    left: 10%;
+    background: #efea3a;
+    border-radius: 10px;
+}
+.a3 .girlFour{
+    width: 260px;
+    height: 90px;
+    line-height: 90px;
+    position: absolute;
+    top:53%;
+    right: 10%;
+    background: #efea3a;
+    border-radius: 10px;
+}
+.a3 .girlFive{
+    width: 260px;
+    height: 90px;
+    line-height: 90px;
+    position: absolute;
+    top:64%;
+    left: 10%;
+    background: #efea3a;
+    border-radius: 10px;
+}
+.a3 .girlSix{
+    width: 260px;
+    height: 90px;
+    line-height: 90px;
+    position: absolute;
+    top:75%;
+    right: 10%;
+    background: #efea3a;
+    border-radius: 10px;
+}
+#a3 .personThree{
+    transform: rotateY(720deg);
+    -webkit-transform: rotateY(720deg);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+#a3 .girlOne{
+    transform: rotateY(720deg);
+    -webkit-transform: rotateY(720deg);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+#a3 .girlTwo{
+     transform: rotateY(720deg);
+     -webkit-transform: rotateY(720deg);
+     transition: 0.5s;
+     -webkit-transition: 0.5s;
+ }
+#a3 .girlThree{
+    transform: rotateY(720deg);
+    -webkit-transform: rotateY(720deg);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+#a3 .girlFour{
+    transform: rotateY(720deg);
+    -webkit-transform: rotateY(720deg);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+#a3 .girlFive{
+    transform: rotateY(720deg);
+    -webkit-transform: rotateY(720deg);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+#a3 .girlSix{
+    transform: rotateY(720deg);
+    -webkit-transform: rotateY(720deg);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+
+.a4 .job{
+    color:#fec94b;
+    position: absolute;
+    top:10%;
+    left: 10%;
+    font-size: 50px;
+}
+.a5 .young{
+    position: absolute;
+    top:14%;
+    left: 7%;
+    width: 550px;
+    height: 550px;
+    -webkit-animation: one-boxM 10s linear 0s infinite;
+    animation: one-boxM 10s linear 0s infinite;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.a5 img{
+    width: 100%;
+    height: 100%;
+}
+@-webkit-keyframes one-boxM {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes one-boxM {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+.a5 .write{
+    width: 600px;
+    position: absolute;
+    bottom:3%;
+    left: 24%;
+    font-size: 30px;
+    color: white;
+    -webkit-animation: myMove 2s linear 0s 1;
+    animation: myMove 2s linear 0s 1;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes myMove {
+    100% {
+        -webkit-transform: skew(180deg);
+        transform: skew(180deg);
+    }
+}
+
+@keyframes myMove {
+    100% {
+        -webkit-transform: skew(180deg);
+        transform: skew(180deg);
+    }
+}
